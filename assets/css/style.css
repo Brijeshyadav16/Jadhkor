@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====== COLOR ===== */
+.color-salmon {
+  color: #ff7878 !important;
+}
+
+/* ===== BACKGROUND-COLOR ==== */
+.bg-alice-blue {
+  background-color: #e9f1f7;
+}
+
+/* ===== NAVBAR ===== */
+.sign-in-btn {
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 9px 20px;
+}
+.donate-btn {
+  background-color: #ff7878 !important;
+  color: #fff !important;
+  border: 0 !important;
+}
+.donate-btn:focus-visible {
+  border: 0 !important;
+}
+
+/* ===== CUSTOM CLASS ===== */
+.h-90 {
+  height: 90vh;
+}
