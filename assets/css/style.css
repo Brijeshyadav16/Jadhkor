@@ -17,12 +17,24 @@
   font-weight: 500;
 }
 
+/* ====== BOX SHADOW ===== */
+.box-shadow-light {
+  box-shadow: 7px 7px 70px #00000029;
+}
+
 /* ====== COLOR ===== */
 .color-salmon {
   color: #ff7878 !important;
 }
 .color-red {
   color: #ff4c4c !important;
+}
+.color-marine {
+  color: #043052;
+}
+.color-grey {
+  color: #1e212b;
+  opacity: 0.42;
 }
 
 /* ===== BACKGROUND-COLOR ==== */
@@ -48,6 +60,21 @@
 }
 .mt-8 {
   margin-top: 80px;
+}
+
+/* ===== NAVBAR ===== */
+.sign-in-btn {
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 9px 20px;
+}
+.donate-btn {
+  background-color: #fa4b4b !important;
+  color: #fff !important;
+  border: 0 !important;
+}
+.donate-btn:focus-visible {
+  border: 0 !important;
 }
 
 /* ===== CAROUSEL ===== */
@@ -78,28 +105,34 @@
 }
 
 /* ===== IMPORTANCE OF GAU SEWA  ===== */
-.bg-gau {
-  background-image: url("../image/side-flower.svg");
+.bg-left-gau {
+  background-image: url(../image/side-flower.svg);
   background-repeat: no-repeat;
-  background-position: -40% 10%;
+  background-position: -9% -56%;
+  background-size: 325px 311px;
+}
+.bg-right-gau {
+  background-image: url(../image/side-flower.svg);
+  background-repeat: no-repeat;
+  background-position: 110% -44%;
+  background-size: 325px 311px;
 }
 
-/* ===== NAVBAR ===== */
-.sign-in-btn {
-  background-color: transparent;
-  border: 1px solid gray;
-  padding: 9px 20px;
+/* ===== DONOR OF THE MONTH  ===== */
+.donor-left-img {
+  background-image: url(../image/donor-side-flower.svg);
+  background-repeat: no-repeat;
+  background-position: top left, top left;
+  background-size: 122px 105px;
 }
-.donate-btn {
-  background-color: #fa4b4b !important;
-  color: #fff !important;
-  border: 0 !important;
-}
-.donate-btn:focus-visible {
-  border: 0 !important;
+.donor-right-img {
+  background-image: url(../image/donor-side-flower.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom right;
+  background-size: 122px 105px;
 }
 
-/* ===== CAMPAIGN ===== */
+/* ===== CAMPAIGN  OF THE MONTHS ===== */
 .circle-border-box {
   border: 1px solid red;
   border-top-left-radius: 115px;
@@ -107,8 +140,20 @@
   width: 220px;
   height: 223px;
 }
+.campaigns-left-bg {
+  background-image: url("../image/bg-flower.svg");
+  background-repeat: no-repeat;
+  background-position: -121px -4px;
+  background-size: 438px 398px;
+}
+.campaigns-right-bg {
+  background-image: url("../image/bg-flower.svg");
+  background-repeat: no-repeat;
+  background-position: 1022px, 18px;
+  background-size: 438px 398px;
+}
 
-/* ===== FIND SECTION OF COWS===== */
+/* ===== FIND SECTION OF COWS ===== */
 .float-img {
   position: relative;
   top: 46px;
