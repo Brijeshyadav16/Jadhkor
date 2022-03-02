@@ -47,6 +47,9 @@
 .bg-marine {
   background-color: #043052;
 }
+.bg-bismark {
+  background-color: #4d6c84;
+}
 
 /* ===== CUSTOM CLASS ===== */
 .h-90 {
@@ -60,6 +63,9 @@
 }
 .mt-8 {
   margin-top: 80px;
+}
+.list-style-none {
+  list-style: none;
 }
 
 /* ===== NAVBAR ===== */
@@ -160,4 +166,13 @@
   left: -42px;
   width: 220px;
   height: 220px;
+}
+
+/* ===== FOOTER ===== */
+.footer-input {
+  border-radius: 20px;
+  padding: 6px 22px;
+}
+.footer-input::placeholder {
+  color: white;
 }
