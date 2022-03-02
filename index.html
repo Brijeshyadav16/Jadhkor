@@ -23,20 +23,25 @@
     <!-- ====================== NAVBAR ======================== -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white pt-4 mb-3">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <i
-          class="fa-solid fa-bars color-salmon fs-3 navbar-toggler border-0"
+        <a class="navbar-brand me-0 p-0" href="#">
+          <img src="./assets/image/jadkhor-logo.png" alt="logo" width="150px" />
+        </a>
+        <img
+          src="./assets/image/menu.svg"
+          alt="menu"
+          class="navbar-toggler border-0"
+          width="65px"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        ></i>
+        />
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a
-                class="nav-link active color-salmon fw-bold"
+                class="nav-link active color-red font-size-15 font-weight-500"
                 aria-current="page"
                 href="#"
                 >ABOUT</a
@@ -44,7 +49,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-salmon fw-bold"
+                class="nav-link active color-red font-size-15 font-weight-500"
                 aria-current="page"
                 href="#"
                 >GAUSHALAS</a
@@ -52,7 +57,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-salmon fw-bold"
+                class="nav-link active color-red font-size-15 font-weight-500"
                 aria-current="page"
                 href="#"
                 >AYURVEDA CENTER</a
@@ -60,7 +65,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-salmon fw-bold"
+                class="nav-link active color-red font-size-15 font-weight-500"
                 aria-current="page"
                 href="#"
                 >EVENTS</a
@@ -68,7 +73,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-salmon fw-bold"
+                class="nav-link active color-red font-size-15 font-weight-500"
                 aria-current="page"
                 href="#"
                 >GURUKUAL</a
@@ -76,7 +81,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-salmon fw-bold"
+                class="nav-link active color-red font-size-15 font-weight-500"
                 aria-current="page"
                 href="#"
                 >GALLERY</a
@@ -84,7 +89,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-salmon fw-bold"
+                class="nav-link active color-red font-size-15 font-weight-500"
                 aria-current="page"
                 href="#"
                 >CONTACT</a
@@ -92,7 +97,7 @@
             </li>
           </ul>
           <div class="d-flex">
-            <button class="rounded-pill me-4 donate-btn px-5">DONATE</button>
+            <button class="rounded-pill me-3 donate-btn px-4">DONATE</button>
             <div class="dropdown">
               <button
                 class="dropdown-toggle sign-in-btn rounded-pill"
@@ -121,25 +126,19 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="https://picsum.photos/300"
-              class="d-block w-100 h-90"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://picsum.photos/200"
-              class="d-block w-100 h-90"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://picsum.photos/400"
-              class="d-block w-100 h-90"
-              alt="..."
-            />
+            <div
+              class="carousel-bg-img d-flex flex-column justify-content-center"
+            >
+              <div class="container ps-5">
+                <h1 class="text-white font-size-50 fw-normal">
+                  Serve and help <br />
+                  mother cow
+                </h1>
+                <button class="rounded-pill me-3 donate-btn px-4 py-2 mt-3">
+                  DONATE
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <button
@@ -164,70 +163,80 @@
     </section>
 
     <!-- ====================== RAJENDER DAS SECTION ======================== -->
-    <section class="container-fluid bg-alice-blue py-5">
-      <div class="container">
-        <div class="row align-items-end">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <img
-              src="https://picsum.photos/500"
-              class="d-block w-100 mb-4"
-              style="height: 300px"
-              alt="..."
-            />
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <h5 class="color-salmon">
-              Brief about Shri Rajender Das Ji Maharaj of Malook Peeth Vrindavan
-              with his picture
-            </h5>
-            <p class="py-2">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusantium odit veritatis inventore. Eligendi sequi corrupti eum
-              vero enim sit ab? Id laboriosam nisi dolor animi quibusdam iste
-              enim natus explicabo!
-            </p>
-            <button class="rounded-pill me-4 donate-btn px-4 py-2 mb-4">
-              KNOW MORE
-            </button>
+    <section class="container-fluid bg-alice-blue py-3">
+      <div class="rajender-das-style py-3">
+        <div class="container">
+          <div class="row align-items-end">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-center mb-3">
+              <div>
+                <img
+                  src="./assets/image/rajender.png"
+                  alt="..."
+                  class="img-style"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-3">
+              <h5 class="color-red">
+                Brief about Shri Rajender Das Ji Maharaj of Malook Peeth
+                Vrindavan with his picture
+              </h5>
+              <p class="py-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <button class="rounded-pill donate-btn px-4 py-2">
+                KNOW MORE
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- ====================== IMPORTANCE OF GAU SEWA ======================== -->
-    <section class="container-fluid py-5 bg-info">
-      <div class="container">
-        <h1 class="text-center text-white mb-5">Importance of Gau Sewa</h1>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <h4 class="color-salmon ms-4">Why Saving Cows is Necessary ?</h4>
-            <h3 class="mt-5">
-              <i class="fa-solid fa-quote-left text-white"></i>
-            </h3>
-            <p class="insert-qutation ms-4 text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              quibusdam sit maiores quasi nobis ex, rerum placeat corporis
-              praesentium voluptas velit, tempora est reprehenderit debitis vel
-              animi laboriosam a molestiae aliquid asperiores dolor soluta. Quod
-              quasi odit optio necessitatibus nulla non fuga officiis, quisquam
-              dolore, ad repellendus consequuntur quibusdam similique aspernatur
-              nostrum alias tempore sint molestiae et nihil veritatis? Saepe.
-            </p>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <h4 class="color-salmon ms-4">A Pea to Serve Indian Cows</h4>
-            <h3 class="mt-5">
-              <i class="fa-solid fa-quote-left text-white"></i>
-            </h3>
-            <p class="insert-qutation ms-4 text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              quibusdam sit maiores quasi nobis ex, rerum placeat corporis
-              praesentium voluptas velit, tempora est reprehenderit debitis vel
-              animi laboriosam a molestiae aliquid asperiores dolor soluta. Quod
-              quasi odit optio necessitatibus nulla non fuga officiis, quisquam
-              dolore, ad repellendus consequuntur quibusdam similique aspernatur
-              nostrum alias tempore sint molestiae et nihil veritatis? Saepe.
-            </p>
+    <section class="container-fluid bg-marine">
+      <div class="bg-gau py-5">
+        <div class="container">
+          <h1 class="text-center text-white mb-5">Importance of Gau Sewa</h1>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+              <h4 class="color-salmon ms-4">Why Saving Cows is Necessary ?</h4>
+              <h3 class="mt-5">
+                <i class="fa-solid fa-quote-left text-white"></i>
+              </h3>
+              <p class="insert-qutation ms-4 text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                quibusdam sit maiores quasi nobis ex, rerum placeat corporis
+                praesentium voluptas velit, tempora est reprehenderit debitis
+                vel animi laboriosam a molestiae aliquid asperiores dolor
+                soluta. Quod quasi odit optio necessitatibus nulla non fuga
+                officiis, quisquam dolore, ad repellendus consequuntur quibusdam
+                similique aspernatur nostrum alias tempore sint molestiae et
+                nihil veritatis? Saepe.
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+              <h4 class="color-salmon ms-4">A Pea to Serve Indian Cows</h4>
+              <h3 class="mt-5">
+                <i class="fa-solid fa-quote-left text-white"></i>
+              </h3>
+              <p class="insert-qutation ms-4 text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                quibusdam sit maiores quasi nobis ex, rerum placeat corporis
+                praesentium voluptas velit, tempora est reprehenderit debitis
+                vel animi laboriosam a molestiae aliquid asperiores dolor
+                soluta. Quod quasi odit optio necessitatibus nulla non fuga
+                officiis, quisquam dolore, ad repellendus consequuntur quibusdam
+                similique aspernatur nostrum alias tempore sint molestiae et
+                nihil veritatis? Saepe.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -321,7 +330,7 @@
         <div class="container">
           <h4 class="text-center color-salmon">CAMPAIGNS OF THE MONTH</h4>
           <div class="row mt-5">
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12 mb-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
               <img
                 src="https://picsum.photos/500"
                 class="rounded d-block m-auto"
@@ -330,7 +339,7 @@
                 alt=""
               />
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12 mb-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
               <img
                 src="https://picsum.photos/500"
                 class="rounded d-block m-auto"
@@ -339,7 +348,7 @@
                 alt=""
               />
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12 mb-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
               <img
                 src="https://picsum.photos/500"
                 class="rounded d-block m-auto"
@@ -348,7 +357,7 @@
                 alt=""
               />
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12 mb-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-3">
               <img
                 src="https://picsum.photos/500"
                 class="rounded d-block m-auto"
@@ -360,7 +369,88 @@
           </div>
         </div>
       </div>
+      <div class="container mt-5">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="text-center circle-border-box px-2 m-auto">
+              <div class="mt-10">
+                <h1 class="color-salmon">100</h1>
+                <h6>COW SEWA</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="text-center circle-border-box px-2 m-auto">
+              <div class="mt-10">
+                <h1 class="color-salmon">100kg</h1>
+                <h6>MEAL SERVED</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5">
+            <div class="text-center circle-border-box px-2 m-auto">
+              <div class="mt-10">
+                <h1 class="color-salmon">100</h1>
+                <h6>DONATED</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- ====================== VIDEO SECTION ======================== -->
+    <section class="container-fluid mt-5 bg-success">
+      <div class="container py-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h4 class="color-salmon">
+              Location of Shri Vraj Kamad Surabhi Van evam Shodh Sansthan and
+              its Registered under: i.e. 80C,12AA & FCRA,CSR.
+            </h4>
+            <p class="my-3 text-white">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse,
+              adipisci necessitatibus. Incidunt vero, reiciendis illum quisquam
+              voluptas alias, praesentium tempora at provident neque, nemo quas
+              soluta impedit veritatis nulla et?
+            </p>
+            <button class="rounded-pill py-2 donate-btn px-3">KNOW MORE</button>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img
+              src="https://picsum.photos/500"
+              class="d-block m-auto"
+              height="250"
+              width="100%"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== FIND SECTION OF COWS ======================== -->
+    <div class="container-fluid bg-danger pt-5 pb-4">
+      <div class="container">
+        <div class="d-flex h-300px">
+          <div class="border border-white p-5 w-75">
+            <h1 class="text-white mt-5 px-3">
+              How do you want to serve a cow today ?
+            </h1>
+            <button class="rounded-pill py-2 donate-btn px-5 mt-3">
+              FIND YOUR CAUSE
+            </button>
+          </div>
+          <div>
+            <img
+              src="https://picsum.photos/500"
+              class="d-block float-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap js -->
     <script

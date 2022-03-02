@@ -4,14 +4,84 @@
   box-sizing: border-box;
 }
 
+/* ====== FONT SIZE ===== */
+.font-size-50 {
+  font-size: 50px;
+}
+.font-size-15 {
+  font-size: 15px;
+}
+
+/* ====== FONT WEIGHT ===== */
+.font-weight-500 {
+  font-weight: 500;
+}
+
 /* ====== COLOR ===== */
 .color-salmon {
   color: #ff7878 !important;
+}
+.color-red {
+  color: #ff4c4c !important;
 }
 
 /* ===== BACKGROUND-COLOR ==== */
 .bg-alice-blue {
   background-color: #e9f1f7;
+}
+.bg-red {
+  background-color: #fa4b4b;
+}
+.bg-marine {
+  background-color: #043052;
+}
+
+/* ===== CUSTOM CLASS ===== */
+.h-90 {
+  height: 90vh;
+}
+.h-300px {
+  height: 300px;
+}
+.mt-10 {
+  margin-top: 100px;
+}
+.mt-8 {
+  margin-top: 80px;
+}
+
+/* ===== CAROUSEL ===== */
+.carousel-bg-img {
+  background-image: url("../image/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+  opacity: 0.9;
+}
+
+/* ===== RAJENDER DAS SECTION ===== */
+.rajender-das-style {
+  background-image: url("../image/bg-flower.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.img-style {
+  width: 75%;
+  min-width: 300px;
+  height: 317px;
+  border-top-left-radius: 252px;
+  border-top-right-radius: 252px;
+  border: 1px solid red;
+  padding: 19px;
+}
+
+/* ===== IMPORTANCE OF GAU SEWA  ===== */
+.bg-gau {
+  background-image: url("../image/side-flower.svg");
+  background-repeat: no-repeat;
+  background-position: -40% 10%;
 }
 
 /* ===== NAVBAR ===== */
@@ -21,7 +91,7 @@
   padding: 9px 20px;
 }
 .donate-btn {
-  background-color: #ff7878 !important;
+  background-color: #fa4b4b !important;
   color: #fff !important;
   border: 0 !important;
 }
@@ -29,7 +99,20 @@
   border: 0 !important;
 }
 
-/* ===== CUSTOM CLASS ===== */
-.h-90 {
-  height: 90vh;
+/* ===== CAMPAIGN ===== */
+.circle-border-box {
+  border: 1px solid red;
+  border-top-left-radius: 115px;
+  border-top-right-radius: 115px;
+  width: 220px;
+  height: 223px;
+}
+
+/* ===== FIND SECTION OF COWS===== */
+.float-img {
+  position: relative;
+  top: 46px;
+  left: -42px;
+  width: 220px;
+  height: 220px;
 }
