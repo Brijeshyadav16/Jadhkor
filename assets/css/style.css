@@ -55,9 +55,6 @@
 .h-90 {
   height: 90vh;
 }
-.h-300px {
-  height: 300px;
-}
 .mt-10 {
   margin-top: 100px;
 }
@@ -162,10 +159,12 @@
 /* ===== FIND SECTION OF COWS ===== */
 .float-img {
   position: relative;
-  top: 46px;
   left: -42px;
-  width: 220px;
-  height: 220px;
+  width: 335px;
+  height: 255px;
+}
+.h-300px {
+  height: 300px;
 }
 
 /* ===== FOOTER ===== */
@@ -175,4 +174,18 @@
 }
 .footer-input::placeholder {
   color: white;
+}
+
+/* ===== MEDIA QUIRES =====  */
+@media screen and (max-width: 768px) {
+  .float-img {
+    position: relative;
+    left: 0;
+    top: 59px;
+    width: 280px;
+    height: 280px;
+  }
+  .h-300px {
+    height: auto;
+  }
 }
