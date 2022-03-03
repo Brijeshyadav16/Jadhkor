@@ -64,6 +64,9 @@
 .list-style-none {
   list-style: none;
 }
+.position-absolute {
+  position: absolute;
+}
 
 /* ===== NAVBAR ===== */
 .sign-in-btn {
@@ -165,6 +168,20 @@
 }
 .h-300px {
   height: 300px;
+}
+
+/* ===== BLOG ===== */
+.feature-left-bg {
+  background-image: url(../image/donor-side-flower.svg);
+  background-repeat: no-repeat;
+  background-position: 39px 6px;
+  background-size: 122px 105px;
+}
+.feature-right-bg {
+  background-image: url(../image/donor-side-flower.svg);
+  background-repeat: no-repeat;
+  background-position: 1103px 4px;
+  background-size: 122px 105px;
 }
 
 /* ===== FOOTER ===== */
