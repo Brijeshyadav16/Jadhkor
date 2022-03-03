@@ -21,7 +21,9 @@
 
   <body>
     <!-- ====================== NAVBAR ======================== -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white pt-4 mb-3">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white pt-4 mb-3 fixed-top"
+    >
       <div class="container">
         <a class="navbar-brand me-0 p-0" href="#">
           <img src="./assets/image/jadkhor-logo.png" alt="logo" width="150px" />
@@ -97,10 +99,14 @@
             </li>
           </ul>
           <div class="d-flex">
-            <button class="rounded-pill me-3 donate-btn px-4">DONATE</button>
+            <button
+              class="rounded-pill me-3 donate-btn px-lg-3 px-md-3 px-sm-3 px-3"
+            >
+              DONATE
+            </button>
             <div class="dropdown">
               <button
-                class="dropdown-toggle sign-in-btn rounded-pill"
+                class="dropdown-toggle sign-in-btn rounded-pill px-2"
                 type="button"
                 id="dropdownMenuButton1"
                 data-bs-toggle="dropdown"
@@ -118,7 +124,7 @@
     </nav>
 
     <!-- ====================== CAROUSEL ======================== -->
-    <section>
+    <section class="mt-8">
       <div
         id="carouselExampleControls"
         class="carousel slide"
