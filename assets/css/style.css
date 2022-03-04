@@ -67,6 +67,10 @@
 .position-absolute {
   position: absolute;
 }
+.border-red {
+  border-top: 1px solid #fa4b4b !important;
+  width: 120px;
+}
 
 /* ===== NAVBAR ===== */
 .sign-in-btn {
