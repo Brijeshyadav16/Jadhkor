@@ -221,3 +221,12 @@
   height: 85vh;
   opacity: 0.9;
 }
+
+/* ===== FACILTIES AT LOCATION ===== */
+.facilities-header {
+  background-image: url("../image/facilities-flower.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 100%;
+}
