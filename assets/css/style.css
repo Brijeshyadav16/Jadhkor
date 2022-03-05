@@ -257,3 +257,7 @@
   top: -179px;
   width: 404px;
 }
+
+.min-height-390 {
+  min-height: 390px;
+}
