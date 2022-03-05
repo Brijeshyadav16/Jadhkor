@@ -74,6 +74,9 @@
 .border-red-2 {
   border: 2px solid #fa4b4b !important;
 }
+.z-index-99 {
+  z-index: 99;
+}
 
 .custom-input {
   background: #fff;
@@ -231,12 +234,16 @@
 
 /* ========================= ABOUT ======================================== */
 /* ===== CAROUSEL ===== */
-.about-carousel-bg-img {
+.about-carousel-bg-img::before {
+  content: "";
   background-image: url("../image/about-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 85vh;
+  height: 90vh;
   opacity: 0.9;
 }
 
@@ -300,4 +307,58 @@
 
 .min-height-390 {
   min-height: 390px;
+}
+
+/* ========================= AYURVEDA ======================================== */
+/* ===== CAROUSEL ===== */
+.ayurveda-carousel-bg-img::before {
+  content: "";
+  background-image: url("../image/ayurveda.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  opacity: 0.9;
+}
+
+/* ===== SCIENCE FOR AYURVEDA ===== */
+.science-bg::before {
+  content: "";
+  background-image: url(../image/side-flower.svg);
+  background-repeat: no-repeat;
+  background-size: 311px;
+  position: absolute;
+  height: 311px;
+  right: 0px;
+  top: 59px;
+  width: 207px;
+}
+
+/* ===== BENEFITS OF COW PRODUCTS  ===== */
+.cow-product-bg::before {
+  content: "";
+  background-image: url(../image/bg-flower.svg);
+  background-repeat: no-repeat;
+  background-size: 330px;
+  position: absolute;
+  height: 330px;
+  left: -21px;
+  top: -65px;
+  width: 337px;
+  z-index: 99;
+}
+.cow-product-bg::after {
+  content: "";
+  background-image: url(../image/bg-flower.svg);
+  background-repeat: no-repeat;
+  background-size: 330px;
+  position: absolute;
+  height: 330px;
+  bottom: 1px;
+  right: 1px;
+  width: 262px;
+  z-index: 99;
 }
