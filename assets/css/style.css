@@ -232,6 +232,7 @@
 }
 
 /* ========================= GAUSHALA ======================================== */
+/* ===== BANNER ===== */
 .gaushala-banner-bg::before {
   content: "";
   background-image: url(../image/side-flower.svg);
@@ -242,4 +243,17 @@
   right: 0px;
   top: 94px;
   width: 231px;
+}
+
+/* ===== COW PRODUCT ===== */
+.cow-product-bg::before {
+  content: "";
+  background-image: url(../image/bg-flower.svg);
+  background-repeat: no-repeat;
+  background-size: 609px;
+  position: absolute;
+  height: 609px;
+  right: 0px;
+  top: -179px;
+  width: 404px;
 }
