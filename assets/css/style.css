@@ -230,3 +230,10 @@
   height: 200px;
   width: 100%;
 }
+
+/* ========================= GAUSHALA ======================================== */
+.gaushala-banner-bg {
+  background-image: url("../image/side-flower.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
