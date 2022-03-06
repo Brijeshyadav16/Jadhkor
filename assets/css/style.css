@@ -362,3 +362,14 @@
   width: 262px;
   z-index: 99;
 }
+
+.login-section::after {
+  content: "";
+  background: url(../image/bg-flower.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 330px;
+  right: 0;
+  z-index: 999;
+}
