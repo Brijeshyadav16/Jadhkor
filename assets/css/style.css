@@ -110,7 +110,7 @@
 
 /* ===== CAROUSEL ===== */
 .carousel-bg-img {
-  background-image: url("../image/banner.png");
+  background-image: url('../image/banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -120,7 +120,7 @@
 
 /* ===== RAJENDER DAS SECTION ===== */
 .rajender-das-style {
-  background-image: url("../image/bg-flower.svg");
+  background-image: url('../image/bg-flower.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -172,13 +172,13 @@
   height: 223px;
 }
 .campaigns-left-bg {
-  background-image: url("../image/bg-flower.svg");
+  background-image: url('../image/bg-flower.svg');
   background-repeat: no-repeat;
   background-position: -121px -4px;
   background-size: 438px 398px;
 }
 .campaigns-right-bg {
-  background-image: url("../image/bg-flower.svg");
+  background-image: url('../image/bg-flower.svg');
   background-repeat: no-repeat;
   background-position: 1022px, 18px;
   background-size: 438px 398px;
@@ -235,8 +235,8 @@
 /* ========================= ABOUT ======================================== */
 /* ===== CAROUSEL ===== */
 .about-carousel-bg-img::before {
-  content: "";
-  background-image: url("../image/about-banner.png");
+  content: '';
+  background-image: url('../image/about-banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -249,7 +249,7 @@
 
 /* ===== FACILTIES AT LOCATION ===== */
 .facilities-header {
-  background-image: url("../image/facilities-flower.svg");
+  background-image: url('../image/facilities-flower.svg');
   background-repeat: no-repeat;
   background-size: contain;
   height: 200px;
@@ -258,8 +258,8 @@
 
 .events-section::after {
   position: absolute;
-  content: "";
-  background-image: url("../image/bg-flower.svg");
+  content: '';
+  background-image: url('../image/bg-flower.svg');
   background-repeat: no-repeat;
   top: 10px;
   right: 0;
@@ -268,11 +268,11 @@
   z-index: 999;
 }
 .contact-section::after {
-  background-image: url("../image/side-flower.svg");
+  background-image: url('../image/side-flower.svg');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 100%;
@@ -281,7 +281,7 @@
 /* ========================= GAUSHALA ======================================== */
 /* ===== BANNER ===== */
 .gaushala-banner-bg::before {
-  content: "";
+  content: '';
   background-image: url(../image/side-flower.svg);
   background-repeat: no-repeat;
   background-size: 363px;
@@ -294,7 +294,7 @@
 
 /* ===== COW PRODUCT ===== */
 .cow-product-bg::before {
-  content: "";
+  content: '';
   background-image: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: 609px;
@@ -312,8 +312,8 @@
 /* ========================= AYURVEDA ======================================== */
 /* ===== CAROUSEL ===== */
 .ayurveda-carousel-bg-img::before {
-  content: "";
-  background-image: url("../image/ayurveda.png");
+  content: '';
+  background-image: url('../image/ayurveda.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -326,7 +326,7 @@
 
 /* ===== SCIENCE FOR AYURVEDA ===== */
 .science-bg::before {
-  content: "";
+  content: '';
   background-image: url(../image/side-flower.svg);
   background-repeat: no-repeat;
   background-size: 311px;
@@ -339,7 +339,7 @@
 
 /* ===== BENEFITS OF COW PRODUCTS  ===== */
 .cow-product-bg::before {
-  content: "";
+  content: '';
   background-image: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: 330px;
@@ -351,7 +351,7 @@
   z-index: 99;
 }
 .cow-product-bg::after {
-  content: "";
+  content: '';
   background-image: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: 330px;
@@ -364,7 +364,7 @@
 }
 
 .login-section::after {
-  content: "";
+  content: '';
   background: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -372,4 +372,14 @@
   width: 330px;
   right: 0;
   z-index: 999;
+}
+
+/* ===== BLOG ===== */
+/* BANNER */
+.banner-bg-blog {
+  background-image: url(../image/blog-big-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
 }
