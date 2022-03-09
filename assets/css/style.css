@@ -471,3 +471,16 @@ select {
   width: 94%;
   border: 1px solid red;
 }
+
+/* ====== MY DONATION ===== */
+.bg-rectange-my-donation::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: 331px;
+  position: absolute;
+  top: 198px;
+  left: 18px;
+  height: 337px;
+  width: 94%;
+  border: 1px solid red;
+}
