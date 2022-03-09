@@ -458,3 +458,16 @@ select {
   width: 21px !important;
   border: 2px solid #043052 !important;
 }
+
+/* ====== CHECKOUT ===== */
+.bg-rectange::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: 331px;
+  position: absolute;
+  top: 86px;
+  left: 18px;
+  height: 650px;
+  width: 94%;
+  border: 1px solid red;
+}

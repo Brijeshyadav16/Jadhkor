@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jadhkor</title>
+    <title>Checkout</title>
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link
@@ -106,10 +106,7 @@
             <button
               class="rounded-pill me-3 donate-btn px-lg-3 px-md-3 px-sm-3 px-3"
             >
-              <a
-                href="./pages/Donate.html"
-                class="text-white text-decoration-none"
-              >
+              <a href="./Donate.html" class="text-white text-decoration-none">
                 DONATE
               </a>
             </button>
@@ -149,7 +146,9 @@
     </section>
 
     <!-- ====================== PROCEED ======================== -->
-    <section class="container-fluid py-5 bg-alice-blue">
+    <section
+      class="container-fluid py-5 bg-alice-blue position-relative bg-rectange"
+    >
       <div class="container">
         <div class="row pb-5">
           <div class="col-lg-6 col-md-12 col-sm-12 col-12 mx-auto">
@@ -179,112 +178,112 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-8 col-md-8 col-sm-12 col-12 mx-auto">
-            <div class="row mt-5 align-items-center">
-              <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                <h4>Nationality</h4>
-              </div>
-              <div class="col-lg-8 col-md-8 col-sm-12 col-12">
-                <select
-                  class="w-100 border-0 px-3 py-3 rounded-pill font-size-20"
-                >
-                  <option value="Select">Select</option>
-                </select>
-              </div>
-            </div>
-            <div class="row mt-5 align-items-center">
-              <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                <h4>Choose the cause</h4>
-              </div>
-              <div class="col-lg-8 col-md-8 col-sm-12 col-12">
-                <select
-                  class="w-100 border-0 px-3 py-3 rounded-pill font-size-20"
-                >
-                  <option value="Select">Select</option>
-                </select>
-              </div>
-            </div>
-            <div class="row mt-5 align-items-center">
-              <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                <h4>Payment Method</h4>
-              </div>
-              <div class="col-lg-8 col-md-8 col-sm-12 col-12">
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="exampleRadios"
-                      id="exampleRadios1"
-                      value="option1"
-                      checked
-                    />
-                    <label
-                      class="form-check-label font-size-20 ms-2"
-                      for="exampleRadios1"
-                    >
-                      One time
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="exampleRadios"
-                      id="exampleRadios1"
-                      value="option1"
-                      checked
-                    />
-                    <label
-                      class="form-check-label font-size-20 ms-2"
-                      for="exampleRadios1"
-                    >
-                      Weekly
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="exampleRadios"
-                      id="exampleRadios1"
-                      value="option1"
-                      checked
-                    />
-                    <label
-                      class="form-check-label font-size-20 ms-2"
-                      for="exampleRadios1"
-                    >
-                      Monthly
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row mt-5 align-items-center">
-              <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                <h4>Amount</h4>
-              </div>
-              <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="row">
+              <div class="col-lg-2 col-md-2 col-sm-12 col-12">
                 <input
-                  class="w-100 border-0 px-5 py-3 rounded-pill font-size-20"
-                  placeholder="Enter Amount"
+                  type="text"
+                  placeholder="Mr"
+                  class="position-sticky bg-white border-0 rounded-pill py-2 px-lg-3 px-md-3 px-sm-5 px-5 font-size-15 w-100 mb-3 d-block"
+                />
+              </div>
+              <div class="col-lg-10 col-md-10 col-sm-12 col-12">
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  class="position-sticky bg-white border-0 rounded-pill py-2 px-5 font-size-15 w-100 mb-3 d-block"
                 />
               </div>
             </div>
-            <div class="row py-5">
-              <div class="col text-center">
-                <a href="./Checkout.html">
-                  <button class="rounded-pill donate-btn px-5 py-3 mt-3">
-                    PROCEED
-                  </button>
-                </a>
-                <p class="mt-4 color-red font-size-20">
-                  Donor of the month will be highlighted on the homepage of the
-                  website
-                </p>
-              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <input
+              type="text"
+              placeholder="Address Line 1"
+              class="position-sticky bg-white border-0 rounded-pill py-2 px-5 font-size-15 w-100 d-block"
+            />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="position-sticky bg-white border-0 rounded-pill py-2 px-5 font-size-15 w-100 mb-3 d-block"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <input
+              type="text"
+              placeholder="Address Line 1"
+              class="position-sticky bg-white border-0 rounded-pill py-2 px-5 font-size-15 w-100 d-block"
+            />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <input
+              type="text"
+              placeholder="Phone Number"
+              class="position-sticky bg-white border-0 rounded-pill py-2 px-5 font-size-15 w-100 mb-3 d-block"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <input
+              type="text"
+              placeholder="Postal Code"
+              class="position-sticky bg-white border-0 rounded-pill py-2 px-5 font-size-15 w-100 d-block"
+            />
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <input
+              type="text"
+              placeholder="PAN"
+              class="position-sticky bg-white border-0 rounded-pill py-2 px-5 font-size-15 w-100 mb-3 d-block"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <input
+              type="text"
+              placeholder="City"
+              class="position-sticky bg-white border-0 rounded-pill py-2 px-5 font-size-15 w-100 d-block"
+            />
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <input
+              type="date"
+              placeholder="Birth Date"
+              class="position-sticky bg-white border-0 rounded-pill py-2 px-5 font-size-15 w-100 mb-3 d-block"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <input
+              type="text"
+              placeholder="State"
+              class="position-sticky bg-white border-0 rounded-pill py-2 px-5 font-size-15 w-100 mb-3 d-block"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 mx-auto">
+            <div class="d-flex justify-content-between align-items-center py-5">
+              <button
+                class="rounded-pill bg-marine border-0 text-white px-5 py-3 mt-3"
+              >
+                PREVIOUS
+              </button>
+              <button class="rounded-pill donate-btn px-5 py-3 mt-3">
+                PROCEED
+              </button>
             </div>
+            <p class="mt-1 text-center color-red font-size-20">
+              Donor of the month will be highlighted on the homepage of the
+              website
+            </p>
           </div>
         </div>
       </div>
