@@ -11,6 +11,9 @@
 .font-size-15 {
   font-size: 15px;
 }
+.font-size-20 {
+  font-size: 20px !important;
+}
 
 /* ====== FONT WEIGHT ===== */
 .font-weight-500 {
@@ -428,4 +431,30 @@
   background-size: 100%;
   height: 350px;
   width: 250px;
+}
+
+/* ====== DONATE ===== */
+/* BANNER */
+.donate-banner {
+  background-image: url('../image/Donate-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+  opacity: 0.9;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(../image/downarrow.svg);
+  background-repeat: no-repeat;
+  background-position-x: 96%;
+  background-position-y: 25px;
+  background-size: 20px;
+}
+
+.form-check-input {
+  height: 21px !important;
+  width: 21px !important;
+  border: 2px solid #043052 !important;
 }
