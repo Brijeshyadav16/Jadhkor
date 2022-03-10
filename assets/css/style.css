@@ -39,6 +39,11 @@
   overflow: hidden;
 }
 
+/* ====== CURSOR ===== */
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /* ====== BOX SHADOW ===== */
 .box-shadow-light {
   box-shadow: 7px 7px 70px #00000029;
@@ -500,4 +505,17 @@ select {
   height: 337px;
   width: 94%;
   border: 1px solid red;
+}
+
+/* ====== LOGIN ===== */
+.login-input-style {
+  background: #e9f1f7;
+  border-radius: 48px;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.login-input-style:focus-visible {
+  outline: none !important;
 }

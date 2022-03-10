@@ -127,7 +127,13 @@
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
-                  <a class="dropdown-item" href="./pages/Login.html">Login</a>
+                  <a
+                    class="dropdown-item"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    href="./pages/Login.html"
+                    >Login</a
+                  >
                 </li>
               </ul>
             </div>
@@ -618,6 +624,74 @@
       </div>
     </footer>
 
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body p-0 rounded">
+            <section>
+              <div class="container position-relative p-0">
+                <div class="row login-section">
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <img
+                      src="../assets/image/login.png"
+                      width="100%"
+                      height="100%"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-12 px-4 py-3">
+                    <div class="text-end">
+                      <img
+                        src="./assets/image/close.png"
+                        alt=""
+                        width="30px"
+                        class="cursor-pointer"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      />
+                    </div>
+                    <div class="mt-5">
+                      <h3 class="text-center mb-5">Glad to see you!</h3>
+                      <form>
+                        <input
+                          type="text"
+                          class="login-input-style mb-3"
+                          placeholder="Email or Phone"
+                        />
+                        <input
+                          type="text"
+                          class="login-input-style mb-3"
+                          placeholder="Password"
+                        />
+                        <button
+                          class="rounded-pill me-3 w-100 donate-btn px-5 py-2"
+                        >
+                          Sing In
+                        </button>
+                      </form>
+                      <h5 class="my-4 text-center">
+                        Do not have an account?
+                        <span class="color-red">Sign Up</span>
+                      </h5>
+                      <p class="color-marine text-center">Forgot Password?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./Js/index.js"></script>
     <!-- Bootstrap js -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
