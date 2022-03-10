@@ -1,7 +1,21 @@
+@font-face {
+  font-family: 'FilsonProMedium';
+  src: local('Filson Pro Medium'), local('Filson-Pro-Medium'),
+    url('../fonts/FilsonPro-Medium/FilsonPro-Medium.woff2') format('woff2'),
+    url('../fonts/FilsonPro-Medium/FilsonPro-Medium.woff') format('woff'),
+    url('../fonts/FilsonPro-Medium/FilsonPro-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+/* ===== FONT-FAMILY ===== */
+.font-filsonProMedium {
+  font-family: 'FilsonProMedium';
 }
 
 /* ====== FONT SIZE ===== */
