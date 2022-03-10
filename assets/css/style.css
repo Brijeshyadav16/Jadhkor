@@ -58,6 +58,9 @@
 .bg-bismark {
   background-color: #4d6c84;
 }
+.bg-transparent {
+  background-color: transparent !important;
+}
 
 /* ===== CUSTOM CLASS ===== */
 .h-90 {
