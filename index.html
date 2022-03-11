@@ -134,6 +134,22 @@
                     >Login</a
                   >
                 </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    data-bs-target="#signup"
+                    data-bs-toggle="modal"
+                    >SignUp
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    data-bs-target="#editprofile"
+                    data-bs-toggle="modal"
+                    >Edit Profile
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -679,12 +695,69 @@
                         Do not have an account?
                         <span class="color-red">Sign Up</span>
                       </h5>
-                      <p class="color-marine text-center">Forgot Password?</p>
+                      <p
+                        class="color-marine text-center cursor-pointer"
+                        data-bs-target="#forgot"
+                        data-bs-toggle="modal"
+                      >
+                        Forgot Password?
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================== SIGNUP MODEL ======================== -->
+    <div
+      class="modal fade"
+      id="signup"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body p-0 rounded">
+            <h1>Signup</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================== EDITPROFILE MODEL ======================== -->
+    <div
+      class="modal fade"
+      id="editprofile"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body p-0 rounded">
+            <h1>edit profile</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================== FORGOT MODEL ======================== -->
+    <div
+      class="modal fade"
+      id="forgot"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body p-0 rounded">
+            <h1>FORGOT</h1>
           </div>
         </div>
       </div>
