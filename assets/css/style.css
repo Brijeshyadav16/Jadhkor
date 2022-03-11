@@ -393,15 +393,19 @@
   z-index: 99;
 }
 
-.login-section::after {
+.login-section::before {
   content: '';
   background: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   width: 330px;
-  right: 0;
+  top: 118px;
+  right: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 999;
+  height: 317px;
 }
 
 /* ===== BLOG ===== */
