@@ -129,9 +129,8 @@
                 <li>
                   <a
                     class="dropdown-item"
+                    data-bs-target="#login"
                     data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                    href="./pages/Login.html"
                     >Login</a
                   >
                 </li>
@@ -624,10 +623,10 @@
       </div>
     </footer>
 
-    <!-- Modal -->
+    <!-- ====================== LOGIN MODEL ======================== -->
     <div
       class="modal fade"
-      id="exampleModal"
+      id="login"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
@@ -637,7 +636,7 @@
           <div class="modal-body p-0 rounded">
             <section>
               <div class="container position-relative p-0">
-                <div class="row login-section">
+                <div class="row">
                   <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <img
                       src="../assets/image/login.png"
@@ -657,7 +656,7 @@
                         aria-label="Close"
                       />
                     </div>
-                    <div class="mt-5">
+                    <div class="mt-5 position-relative login-section">
                       <h3 class="text-center mb-5">Glad to see you!</h3>
                       <form>
                         <input
