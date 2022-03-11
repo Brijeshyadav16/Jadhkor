@@ -28,7 +28,11 @@
 .font-size-20 {
   font-size: 20px !important;
 }
-
+@media screen and (max-width: 768px) {
+  .font-size-50 {
+    font-size: 30px;
+  }
+}
 /* ====== FONT WEIGHT ===== */
 .font-weight-500 {
   font-weight: 500;
@@ -405,7 +409,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
-  height: 317px;
+  height: 332px;
 }
 
 /* ===== BLOG ===== */
