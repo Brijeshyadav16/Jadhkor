@@ -286,7 +286,7 @@
   background-image: url('../image/facilities-flower.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  height: 200px;
+  height: 160px;
   width: 100%;
 }
 
@@ -526,4 +526,17 @@ select {
 
 .login-input-style:focus-visible {
   outline: none !important;
+}
+
+/* ====== EVENTS ===== */
+.event-bg::after {
+  content: '';
+  background-image: url(../image/bg-flower.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 101px;
+  right: 0;
+  width: 39%;
+  height: 428px;
 }
