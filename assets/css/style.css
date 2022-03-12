@@ -601,11 +601,11 @@ select {
 .location-sec::before {
   content: "";
   position: absolute;
-  background: url(../image/side-flower.svg);
+  background: url(../image/flower-blue.svg);
   width: 461px;
   height: 460px;
-  left: -228px;
-  top: -100px;
+  left: -175px;
+  top: -229px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -623,8 +623,8 @@ select {
 .how-get-sec::after {
   content: "";
   position: absolute;
-  background: url(../image/side-flower.svg);
-  width: 461px;
+  background: url(../image/flower-blue.svg);
+  width: 234px;
   height: 460px;
   right: 0;
   top: 0;
