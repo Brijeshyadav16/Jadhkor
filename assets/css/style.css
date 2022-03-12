@@ -109,7 +109,7 @@
   border: 2px solid #fa4b4b !important;
 }
 .z-index-99 {
-  z-index: 99;
+  z-index: 999;
 }
 
 .custom-input {
@@ -307,11 +307,20 @@
   background-size: cover;
   position: absolute;
   content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 15px;
+  left: 288px;
+  width: 387px;
+  height: 330px;
   z-index: 999;
 }
+
+@media screen and (max-width: 768px) {
+  .contact-section::after {
+    width: 100%;
+    left: 0;
+  }
+}
+
 /* ========================= GAUSHALA ======================================== */
 /* ===== BANNER ===== */
 .gaushala-banner-bg::before {
