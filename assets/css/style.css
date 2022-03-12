@@ -540,6 +540,20 @@ select {
   height: 428px;
 }
 
+/* ====== GALLERY ===== */
+.gallery-bg::before {
+  content: '';
+  background-image: url(../image/side-flower.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 123px;
+  background-size: contain;
+  right: 0px;
+  width: 307px;
+  height: 330px;
+  opacity: 0.4;
+}
+
 /* signUp */
 .signup-sec::after {
   content: '';
