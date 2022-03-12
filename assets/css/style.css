@@ -28,6 +28,9 @@
 .font-size-14 {
   font-size: 14px;
 }
+.font-size-18 {
+  font-size: 18px;
+}
 .font-size-20 {
   font-size: 20px !important;
 }
@@ -94,6 +97,9 @@
 }
 .h-80vh {
   height: 80vh !important;
+}
+.h-48 {
+  height: 48px;
 }
 .mt-10 {
   margin-top: 100px;
@@ -248,11 +254,15 @@
 
 /* ===== FOOTER ===== */
 .footer-input {
-  border-radius: 20px;
+  border-radius: 26px;
   padding: 6px 22px;
+  height: 48px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 .footer-input::placeholder {
-  color: white;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 12px !important;
 }
 
 /* ===== MEDIA QUIRES =====  */
