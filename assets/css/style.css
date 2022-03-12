@@ -313,6 +313,14 @@
   height: 330px;
   z-index: 999;
 }
+
+@media screen and (max-width: 768px) {
+  .contact-section::after {
+    width: 100%;
+    left: 0;
+  }
+}
+
 /* ========================= GAUSHALA ======================================== */
 /* ===== BANNER ===== */
 .gaushala-banner-bg::before {
