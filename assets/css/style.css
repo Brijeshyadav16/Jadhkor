@@ -514,11 +514,17 @@ select {
   background-repeat: no-repeat;
   background-size: 331px;
   position: absolute;
-  top: 198px;
+  top: 169px;
   left: 18px;
-  height: 337px;
+  height: 350px;
   width: 94%;
-  border: 1px solid red;
+  border: 2px solid red;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-rectange-my-donation::before {
+    height: 500px;
+  }
 }
 
 /* ====== LOGIN ===== */
