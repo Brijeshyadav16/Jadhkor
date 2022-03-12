@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "FilsonProMedium";
-  src: local("Filson Pro Medium"), local("Filson-Pro-Medium"),
-    url("../fonts/FilsonPro-Medium/FilsonPro-Medium.woff2") format("woff2"),
-    url("../fonts/FilsonPro-Medium/FilsonPro-Medium.woff") format("woff"),
-    url("../fonts/FilsonPro-Medium/FilsonPro-Medium.ttf") format("truetype");
+  font-family: 'FilsonProMedium';
+  src: local('Filson Pro Medium'), local('Filson-Pro-Medium'),
+    url('../fonts/FilsonPro-Medium/FilsonPro-Medium.woff2') format('woff2'),
+    url('../fonts/FilsonPro-Medium/FilsonPro-Medium.woff') format('woff'),
+    url('../fonts/FilsonPro-Medium/FilsonPro-Medium.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 }
 /* ===== FONT-FAMILY ===== */
 .font-filsonProMedium {
-  font-family: "FilsonProMedium";
+  font-family: 'FilsonProMedium';
 }
 
 /* ====== FONT SIZE ===== */
@@ -24,6 +24,9 @@
 }
 .font-size-15 {
   font-size: 15px;
+}
+.font-size-14 {
+  font-size: 14px;
 }
 .font-size-20 {
   font-size: 20px !important;
@@ -144,7 +147,7 @@
 
 /* ===== CAROUSEL ===== */
 .carousel-bg-img {
-  background-image: url("../image/banner.png");
+  background-image: url('../image/banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -154,7 +157,7 @@
 
 /* ===== RAJENDER DAS SECTION ===== */
 .rajender-das-style {
-  background-image: url("../image/bg-flower.svg");
+  background-image: url('../image/bg-flower.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -206,13 +209,13 @@
   height: 223px;
 }
 .campaigns-left-bg {
-  background-image: url("../image/bg-flower.svg");
+  background-image: url('../image/bg-flower.svg');
   background-repeat: no-repeat;
   background-position: -121px -4px;
   background-size: 438px 398px;
 }
 .campaigns-right-bg {
-  background-image: url("../image/bg-flower.svg");
+  background-image: url('../image/bg-flower.svg');
   background-repeat: no-repeat;
   background-position: 1022px, 18px;
   background-size: 438px 398px;
@@ -269,8 +272,8 @@
 /* ========================= ABOUT ======================================== */
 /* ===== CAROUSEL ===== */
 .about-carousel-bg-img::before {
-  content: "";
-  background-image: url("../image/about-banner.png");
+  content: '';
+  background-image: url('../image/about-banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -283,7 +286,7 @@
 
 /* ===== FACILTIES AT LOCATION ===== */
 .facilities-header {
-  background-image: url("../image/facilities-flower.svg");
+  background-image: url('../image/facilities-flower.svg');
   background-repeat: no-repeat;
   background-size: contain;
   height: 160px;
@@ -292,8 +295,8 @@
 
 .events-section::after {
   position: absolute;
-  content: "";
-  background-image: url("../image/bg-flower.svg");
+  content: '';
+  background-image: url('../image/bg-flower.svg');
   background-repeat: no-repeat;
   top: 10px;
   right: 0;
@@ -302,11 +305,11 @@
   z-index: 999;
 }
 .contact-section::after {
-  background-image: url("../image/side-flower.svg");
+  background-image: url('../image/side-flower.svg');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  content: "";
+  content: '';
   top: 15px;
   left: 288px;
   width: 387px;
@@ -324,7 +327,7 @@
 /* ========================= GAUSHALA ======================================== */
 /* ===== BANNER ===== */
 .gaushala-banner-bg::before {
-  content: "";
+  content: '';
   background-image: url(../image/side-flower.svg);
   background-repeat: no-repeat;
   background-size: 363px;
@@ -337,7 +340,7 @@
 
 /* ===== COW PRODUCT ===== */
 .cow-product-bg::before {
-  content: "";
+  content: '';
   background-image: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: 609px;
@@ -355,8 +358,8 @@
 /* ========================= AYURVEDA ======================================== */
 /* ===== CAROUSEL ===== */
 .ayurveda-carousel-bg-img::before {
-  content: "";
-  background-image: url("../image/ayurveda.png");
+  content: '';
+  background-image: url('../image/ayurveda.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -369,7 +372,7 @@
 
 /* ===== SCIENCE FOR AYURVEDA ===== */
 .science-bg::before {
-  content: "";
+  content: '';
   background-image: url(../image/side-flower.svg);
   background-repeat: no-repeat;
   background-size: 311px;
@@ -382,7 +385,7 @@
 
 /* ===== BENEFITS OF COW PRODUCTS  ===== */
 .cow-product-bg::before {
-  content: "";
+  content: '';
   background-image: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: 330px;
@@ -394,7 +397,7 @@
   z-index: 99;
 }
 .cow-product-bg::after {
-  content: "";
+  content: '';
   background-image: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: 330px;
@@ -407,7 +410,7 @@
 }
 
 .login-section::before {
-  content: "";
+  content: '';
   background: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -433,7 +436,7 @@
 
 /* ===== SUBSCRIBE ===== */
 .subscribe-bg::before {
-  content: "";
+  content: '';
   background: url(../image/side-flower.svg);
   background-repeat: no-repeat;
   background-size: 309px;
@@ -475,7 +478,7 @@
 /* ====== DONATE ===== */
 /* BANNER */
 .donate-banner {
-  background-image: url("../image/Donate-banner.png");
+  background-image: url('../image/Donate-banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -500,7 +503,7 @@ select {
 
 /* ====== CHECKOUT ===== */
 .bg-rectange::before {
-  content: "";
+  content: '';
   background-repeat: no-repeat;
   background-size: 331px;
   position: absolute;
@@ -519,7 +522,7 @@ select {
 
 /* ====== MY DONATION ===== */
 .bg-rectange-my-donation::before {
-  content: "";
+  content: '';
   background-repeat: no-repeat;
   background-size: 331px;
   position: absolute;
@@ -569,7 +572,7 @@ select {
 }
 /* ====== EVENTS ===== */
 .event-bg::after {
-  content: "";
+  content: '';
   background-image: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -582,7 +585,7 @@ select {
 
 /* ====== GALLERY ===== */
 .gallery-bg::before {
-  content: "";
+  content: '';
   background-image: url(../image/side-flower.svg);
   position: absolute;
   background-repeat: no-repeat;
@@ -596,7 +599,7 @@ select {
 
 /* signUp */
 .signup-sec::after {
-  content: "";
+  content: '';
   position: absolute;
   background: url(../image/bg-flower.svg);
   width: 60%;
@@ -608,7 +611,7 @@ select {
 }
 
 .location-sec::before {
-  content: "";
+  content: '';
   position: absolute;
   background: url(../image/flower-blue.svg);
   width: 461px;
@@ -619,7 +622,7 @@ select {
   background-repeat: no-repeat;
 }
 .how-get-sec::before {
-  content: "";
+  content: '';
   position: absolute;
   background: url(../image/bg-flower.svg);
   width: 461px;
@@ -630,7 +633,7 @@ select {
   background-repeat: no-repeat;
 }
 .how-get-sec::after {
-  content: "";
+  content: '';
   position: absolute;
   background: url(../image/flower-blue.svg);
   width: 234px;
