@@ -30,13 +30,13 @@
           <img
             src="../assets/image/jadkhor-logo.png"
             alt="logo"
-            width="150px"
+            width="200px"
           />
         </a>
         <img
           src="../assets/image/menu.svg"
           alt="menu"
-          class="navbar-toggler border-0"
+          class="navbar-toggler border-0 cursor-pointer"
           width="65px"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo02"
@@ -44,19 +44,19 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         />
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mx-auto">
+        <div class="collapse navbar-collapse mt-3" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto ms-4 font-filsonProMedium">
             <li class="nav-item">
               <a
-                class="nav-link active color-red font-size-15 font-weight-500"
+                class="nav-link active color-red font-size-14"
                 aria-current="page"
-                href="./pages/About.html"
+                href="./About.html"
                 >ABOUT</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-red font-size-15 font-weight-500"
+                class="nav-link active color-red font-size-14"
                 aria-current="page"
                 href="./Gaushala.html"
                 >GAUSHALAS</a
@@ -64,7 +64,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-red font-size-15 font-weight-500"
+                class="nav-link active color-red font-size-14"
                 aria-current="page"
                 href="./Ayurveda.html"
                 >AYURVEDA CENTER</a
@@ -72,7 +72,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-red font-size-15 font-weight-500"
+                class="nav-link active color-red font-size-14"
                 aria-current="page"
                 href="./Events.html"
                 >EVENTS</a
@@ -80,15 +80,15 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-red font-size-15 font-weight-500"
+                class="nav-link active color-red font-size-14"
                 aria-current="page"
-                href="#"
+                href=""
                 >GURUKUAL</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-red font-size-15 font-weight-500"
+                class="nav-link active color-red font-size-14"
                 aria-current="page"
                 href="./Gallery.html"
                 >GALLERY</a
@@ -96,22 +96,27 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link active color-red font-size-15 font-weight-500"
+                class="nav-link active color-red font-size-14"
                 aria-current="page"
                 href="./Contact.html"
                 >CONTACT</a
               >
             </li>
           </ul>
-          <div class="d-flex">
+          <div class="d-flex ms-auto">
             <button
-              class="rounded-pill me-3 donate-btn px-lg-3 px-md-3 px-sm-3 px-3"
+              class="rounded-pill me-3 donate-btn px-lg-5 px-md-4 px-sm-3 px-3 font-size-14"
             >
-              DONATE
+              <a
+                href="./Donate.html"
+                class="text-white text-decoration-none font-filsonProMedium"
+              >
+                DONATE
+              </a>
             </button>
             <div class="dropdown">
               <button
-                class="dropdown-toggle sign-in-btn rounded-pill px-2"
+                class="dropdown-toggle sign-in-btn rounded-pill px-3 font-filsonProMedium font-size-14"
                 type="button"
                 id="dropdownMenuButton1"
                 data-bs-toggle="dropdown"
@@ -120,7 +125,30 @@
                 SIGN IN
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li>
+                  <a
+                    class="dropdown-item cursor-pointer"
+                    data-bs-target="#login"
+                    data-bs-toggle="modal"
+                    >Login</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item cursor-pointer"
+                    data-bs-target="#signup"
+                    data-bs-toggle="modal"
+                    >SignUp
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item cursor-pointer"
+                    data-bs-target="#editprofile"
+                    data-bs-toggle="modal"
+                    >Edit Profile
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
