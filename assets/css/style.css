@@ -136,6 +136,29 @@
   width: 100%;
 }
 
+.object-fit-cover {
+  object-fit: cover;
+}
+/* ===== CAROUSEL ===== */
+.carousel-control-prev {
+  left: -5px !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 7% !important;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1 !important;
+  transition: opacity 0.15s ease;
+}
+
 /* ===== NAVBAR ===== */
 .sign-in-btn {
   background-color: transparent;
@@ -176,6 +199,7 @@
   border-top-right-radius: 252px;
   border: 1px solid red;
   padding: 19px;
+  object-fit: cover;
 }
 
 /* ===== IMPORTANCE OF GAU SEWA  ===== */
@@ -231,11 +255,25 @@
 .float-img {
   position: relative;
   left: -42px;
-  width: 335px;
-  height: 255px;
+  width: 431px;
+  height: 297px;
 }
-.h-300px {
-  height: 300px;
+.h-500px {
+  height: 500px;
+}
+.h-370px {
+  height: 370px;
+}
+.cow-sec::after {
+  content: '';
+  position: absolute;
+  background: url(../image/flower-blue.svg);
+  width: 234px;
+  height: 460px;
+  right: 0;
+  top: 38px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* ===== BLOG ===== */
