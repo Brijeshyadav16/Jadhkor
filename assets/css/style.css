@@ -736,4 +736,5 @@ select {
 
 .form-check-input {
   border: 2px solid red !important;
+  background-color: red !important;
 }
