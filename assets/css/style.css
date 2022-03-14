@@ -372,12 +372,12 @@
   width: 387px;
   height: 330px;
   z-index: 999;
+  opacity: 0.5;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .contact-section::after {
-    width: 100%;
-    left: 0;
+    display: none;
   }
 }
 
