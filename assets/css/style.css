@@ -708,3 +708,25 @@ select {
   left: 0;
   padding: 15px;
 }
+
+/* activities */
+.facilities-activities-header {
+  background-image: url('../image/facilities-flower.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 160px;
+  width: 100%;
+}
+
+.facilities-activities-bottom::after {
+  content: '';
+  background-image: url(../image/facilities-flower.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 15px;
+  left: auto;
+  right: auto;
+  width: 96%;
+  height: 171px;
+}
