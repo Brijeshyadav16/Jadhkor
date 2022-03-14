@@ -722,3 +722,8 @@ select {
   width: 96%;
   height: 171px;
 }
+
+.form-check-input {
+  border: 2px solid red !important;
+  background-color: red !important;
+}
