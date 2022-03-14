@@ -600,24 +600,13 @@ select {
 }
 
 /* ====== DONATION LIST ===== */
-.bg-rectange-donation-list::before {
-  content: '';
-  background-repeat: no-repeat;
-  background-size: 331px;
-  position: absolute;
-  top: 170px;
-  left: 18px;
-  height: 350px;
-  width: 94%;
+.bg-rectange-donation-list {
   border: 2px solid red;
 }
-@media screen and (max-width: 768px) {
-  .bg-rectange-donation-list::before {
-    top: 162px;
-    height: 634px;
-  }
+.btn-position {
+  position: relative;
+  top: -20px;
 }
-
 /* ====== LOGIN ===== */
 .login-input-style {
   background: #e9f1f7;
