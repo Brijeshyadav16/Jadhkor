@@ -105,6 +105,9 @@
 .h-48 {
   height: 48px;
 }
+.h-519 {
+  max-height: 519px;
+}
 .mt-10 {
   margin-top: 100px;
 }
@@ -725,4 +728,18 @@ select {
 
 .form-check-input {
   border: 2px solid red !important;
+}
+
+/* List of Actitivites  */
+.list-activities-bg::before {
+  content: '';
+  background-image: url(../image/red-flower.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 682px;
+  width: 100%;
+  opacity: 0.9;
 }
