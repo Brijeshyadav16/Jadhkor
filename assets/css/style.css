@@ -760,3 +760,18 @@ select {
   width: 100%;
   opacity: 0.9;
 }
+
+input:checked::before {
+  content: '\2713';
+  display: block;
+  text-align: center;
+  color: red;
+  position: absolute;
+  left: 0.7rem;
+  top: 0.2rem;
+  width: 30px;
+}
+input:checked {
+  border: 1px solid red;
+  background-color: white;
+}
