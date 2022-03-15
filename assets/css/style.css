@@ -8,14 +8,23 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'P22Mackinac';
+  src: local('P22 Mackinac'), local('P22-Mackinac'),
+    url('../fonts/P22-Mackinac/P22MackinacPro-Book_25.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'P22Mackinac';
 }
 /* ===== FONT-FAMILY ===== */
 .font-filsonProMedium {
-  font-family: 'FilsonProMedium';
+  font-family: 'FilsonProMedium' !important;
 }
 
 /* ====== FONT SIZE ===== */
