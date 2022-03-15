@@ -767,11 +767,25 @@ input:checked::before {
   text-align: center;
   color: red;
   position: absolute;
-  left: 0.7rem;
-  top: 0.2rem;
-  width: 30px;
+  left: 7px;
+  top: 0;
 }
 input:checked {
   border: 1px solid red;
   background-color: white;
+}
+
+.checkbox {
+  height: 25px;
+  width: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid red;
+  border-radius: 4px;
+  outline: none;
+  transition-duration: 0.3s;
+  background-color: white;
+  cursor: pointer;
 }
