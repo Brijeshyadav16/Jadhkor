@@ -816,4 +816,7 @@ input:checked {
   .about-carousel-bg-img {
     height: 50vh;
   }
+  .mb-8 {
+    margin-bottom: 80px;
+  }
 }
