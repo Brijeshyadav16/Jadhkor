@@ -363,8 +363,8 @@
 
 /* ========================= ABOUT ======================================== */
 /* ===== CAROUSEL ===== */
-.about-carousel-bg-img::before {
-  content: '';
+.about-carousel-bg-img {
+  /* content: ''; */
   background-image: url('../image/about-banner.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -805,6 +805,9 @@ input:checked {
 
 @media screen and (max-width: 768px) {
   .ayurveda-carousel-bg-img {
+    height: 50vh;
+  }
+  .about-carousel-bg-img {
     height: 50vh;
   }
 }
