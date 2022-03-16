@@ -449,8 +449,8 @@
 
 /* ========================= AYURVEDA ======================================== */
 /* ===== CAROUSEL ===== */
-.ayurveda-carousel-bg-img::before {
-  content: '';
+.ayurveda-carousel-bg-img {
+  /* content: ''; */
   background-image: url('../image/ayurveda.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -804,7 +804,7 @@ input:checked {
 }
 
 @media screen and (max-width: 768px) {
-  .ayurveda-carousel-bg-img::before {
+  .ayurveda-carousel-bg-img {
     height: 50vh;
   }
 }
