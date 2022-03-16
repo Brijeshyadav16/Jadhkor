@@ -117,6 +117,12 @@
 .h-519 {
   max-height: 519px;
 }
+.h-43 {
+  height: 43px;
+}
+.w-165 {
+  width: 165px;
+}
 .mt-10 {
   margin-top: 100px;
 }
@@ -809,5 +815,8 @@ input:checked {
   }
   .about-carousel-bg-img {
     height: 50vh;
+  }
+  .mb-8 {
+    margin-bottom: 80px;
   }
 }
