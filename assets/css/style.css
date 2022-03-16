@@ -606,12 +606,6 @@ select {
   border: 2px solid red;
 }
 
-@media screen and (max-width: 768px) {
-  .bg-rectange::before {
-    height: 950px;
-  }
-}
-
 /* ====== MY DONATION ===== */
 .bg-rectange-my-donation::before {
   content: '';
@@ -807,4 +801,10 @@ input:checked {
 }
 .custom-donate-btn {
   letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .ayurveda-carousel-bg-img::before {
+    height: 50vh;
+  }
 }
