@@ -639,6 +639,10 @@ select {
   position: relative;
   top: -20px;
 }
+.img-position {
+  position: relative;
+  top: -22px;
+}
 /* ====== LOGIN ===== */
 .login-input-style {
   background: #e9f1f7;
