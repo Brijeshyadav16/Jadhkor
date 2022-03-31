@@ -523,19 +523,13 @@
   z-index: 99;
 }
 
-.login-section::before {
-  content: '';
+.login-section {
   background: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   width: 330px;
-  top: 118px;
-  right: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 999;
-  height: 332px;
+  top: 0px;
 }
 
 /* ===== BLOG ===== */
@@ -599,6 +593,29 @@
   height: 50vh;
   opacity: 0.9;
 }
+
+.width-30{
+  width: 30px !important;
+  text-align: center;
+}
+
+.border-style-button { 
+  border: 0 !important;
+  background:red;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-control:focus {
+  box-shadow: unset !important;
+}
+
+.bottom-bar{
+  background-color: rgb(251,212,51);
+  padding: 14px 20px;
+}
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -819,7 +836,7 @@ input:checked::before {
   text-align: center;
   color: red;
   position: absolute;
-  left: 7px;
+  left: 5px;
   top: 0;
 }
 input:checked {
