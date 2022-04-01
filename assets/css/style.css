@@ -527,9 +527,8 @@
   background: url(../image/bg-flower.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  width: 330px;
   top: 0px;
+  margin: 0 auto;
 }
 
 /* ===== BLOG ===== */
@@ -872,6 +871,12 @@ input:checked {
   }
   .about-carousel-bg-img {
     height: 50vh;
+  }
+  .bg-rectange-donation-list{
+    border: 0 !important;
+  }
+  .sm-display-none{
+    display: none !important;
   }
 }
 
